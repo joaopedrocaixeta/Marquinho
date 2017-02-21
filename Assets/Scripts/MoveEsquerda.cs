@@ -8,12 +8,10 @@ public class MoveEsquerda : MonoBehaviour {
     public float limite;
     public float retorno;
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
         Vector3 velocidadeVetorial = Vector3.left * velocidade;
